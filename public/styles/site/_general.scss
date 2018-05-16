@@ -63,6 +63,14 @@ a:hover, a:focus {
     color: #FFF;
 }
 
+.grey-text {
+  color: #868F9B;
+}
+
+.black-text {
+  color: black;
+}
+
 ::-moz-selection {
     background-color: $primary;
     color: #FFF;
@@ -76,7 +84,9 @@ a:hover, a:focus {
 ul, ol {
     margin: 0;
     padding: 0;
-    list-style: none
+    li {
+      margin-left: 1.5rem;
+    }
 }
 
 /* -- section  -- */
@@ -106,6 +116,10 @@ ul, ol {
 
 .bg-dark {
     background-color: #1C1D21;
+}
+
+.bg-main {
+  background-color: $primary;
 }
 
 
@@ -152,17 +166,23 @@ ul, ol {
     text-transform: capitalize;
 }
 
-.title:after {
-    content:"";
-  	display:block;
-  	height:4px;
-  	width:40px;
-  	background-color: $primary;
-    margin-top: 20px;
-}
+// .title:after {
+//     content:"";
+//   	display:block;
+//   	height:4px;
+//   	width:40px;
+//   	background-color: $primary;
+//     margin-top: 20px;
+// }
 
 .text-center .title:after {
     margin: 20px auto 0px;
+}
+
+.title {
+  br {
+    margin-top: 1rem;
+  }
 }
 
 /* --  Input  -- */
