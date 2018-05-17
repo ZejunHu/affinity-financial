@@ -3,14 +3,16 @@
 \*------------------------------------*/
 
 .features-section {
-   background-color: #CCECF4;
+   background-image: url("../images/background.png");
    .title {
+     color: $primary;
      margin-top: 4rem;
      @media (min-width: 1200px) {
        margin-top: 10rem;
      }
    }
    .feature-infomation {
+     color: white;
      font-size: 18px;
    }
 }

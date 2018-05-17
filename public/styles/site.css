@@ -825,13 +825,15 @@ header {
 	Why choose us
 \*------------------------------------*/
 .features-section {
-  background-color: #CCECF4; }
+  background-image: url("../images/background.png"); }
   .features-section .title {
+    color: #FBB561;
     margin-top: 4rem; }
     @media (min-width: 1200px) {
       .features-section .title {
         margin-top: 10rem; } }
   .features-section .feature-infomation {
+    color: white;
     font-size: 18px; }
 
 .feature {
