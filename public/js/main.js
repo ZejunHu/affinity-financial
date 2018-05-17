@@ -94,6 +94,9 @@
     $('#contact-form-modal').removeClass('in');
     $('#contact-form-modal').css('display', 'none');
   });
-
+  $('.enquiry-form-close').click(function() {
+    $('#enquiry-form-modal').removeClass('in');
+    $('#enquiry-form-modal').css('display', 'none');
+  });
 
 })(jQuery);
