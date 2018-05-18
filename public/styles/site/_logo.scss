@@ -9,8 +9,13 @@
 
 .navbar-brand .logo, .navbar-brand .logo-alt {
     max-height: 60px;
-    margin-top: -0.5rem;
+    max-width: 240px;
+    margin-top: 0.5rem;
     display: block;
+    @media (min-width: 992px) {
+      margin-top: -0.5rem;
+      max-width: 400px;
+    }
 }
 
 #nav:not(.nav-transparent):not(.fixed-nav) .navbar-brand .logo-alt {
